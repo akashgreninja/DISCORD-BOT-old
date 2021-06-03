@@ -67,22 +67,15 @@ async def yelp(ctx):
 
 @client.event
 async def on_member_join(member):
-    guild = client.get_guild(488038731270455298)
-    channel = client.get_channel(488381691870576642)
+    guild = client.get_guild(SERVER ID)
+    channel = client.get_channel(YOUR DISCORD CHANNEL 1 ID)
 
     await channel.send(
         f'welcome to this server hope you enjoy your stay btw im better than the other bots in this server use &help for commands {member.mention} !  :star_struck: '
     )
 
 
-@client.event
-async def on_member_join(member):
-    guild = client.get_guild(753868632848859138)
-    channel = client.get_channel(846786353705254953)
-    channel = client.get_channel(753868633322815521)
-    await channel.send(
-        f'welcome to this server hope you enjoy your stay btw im better than the other bots in this server use &help for commands{member.mention} !  :star_struck: '
-    )
+
 
 
 @client.event
@@ -146,5 +139,6 @@ async def on_message(message):
 
 
 
+#PUT YOUR TOKEN HERE
 keep_alive()
-client.run('ODQ2MjgyODgyNzE2NjYzODIw.YKtQWg.cnHUMa6w9Zf4XYEoO5XS_p1Sx-E')
+client.run('put your client code here')
