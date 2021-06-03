@@ -134,9 +134,7 @@ async def on_message(message):
     if message.content.startswith('&tester'):
         await message.channel.send('WANT TO TEST THIS BOT DM John Wick#9788 ON DISCORD HE WILL ADD YOU  ')
 
-    if message.content.startswith('&'):
-        await message.channel.send(file=discord.File('3793.jpg'))
-
+   
 
 
 #PUT YOUR TOKEN HERE
